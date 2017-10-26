@@ -1,0 +1,44 @@
+$pink: #D1A3A6
+
+body
+  font-family: 'Open Sans', sans-serif
+  font-weight: 300
+
+//  *** Header Section ***
+header
+  min-height: 515px
+  .header-background
+    background-image: url('../images/header.jpg')
+    height: 515px
+    background-size: cover
+
+// * Navbar
+nav
+  margin-bottom: 70px
+  width: 90%
+  .navbar-toggler
+    float: right
+.navbar-dark
+  .navbar-nav
+    .nav-link
+      color: rgba(255,255,255,0.8)
+      margin: 10px 13px
+      font-size: 14px
+      font-weight: 600
+      text-transform: uppercase
+      border-bottom: 2px solid transparent
+    .nav-link:hover
+      color: rgba(255,255,255,0.8)
+      transition: border-bottom 0.2s
+      border-bottom: 2px solid $pink
+
+// * Personal Details
+.personal-details
+  width: 90%
+  margin: 0 auto
+  background-color: white
+  min-height: 400px
+  padding: 50px
+  .image-profile
+    width: 100%
+    height: auto
